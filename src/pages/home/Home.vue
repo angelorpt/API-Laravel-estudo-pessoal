@@ -1,19 +1,19 @@
 <template>
-  <div class="">
-    <h2>Social</h2>
+   <div class="">
+      <h2>Social</h2>
 
-  </div>
+   </div>
 </template>
 
 <script>
-  export default {
-    name: 'Home',
-    data() {
-      return {
+   export default {
+      name: 'Home',
+      data() {
+         return {
 
+         }
       }
-    }
-  }
+   }
 
 </script>
 
