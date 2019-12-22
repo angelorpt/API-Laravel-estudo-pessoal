@@ -8,7 +8,7 @@
          <div class="container">
             <div class="row">
                <Grid tamanho="4">
-                  Menu
+                  <card-menu></card-menu>
                </Grid>
                <Grid tamanho="8">
                   <router-view/>
@@ -30,14 +30,15 @@
 
 <script>
 
-   import NavBar from '@/components/layouts/NavBar'
-   import Rodape from '@/components/layouts/Rodape'
-   import Grid   from '@/components/layouts/Grid'
+   import NavBar   from '@/components/layouts/NavBar'
+   import Rodape   from '@/components/layouts/Rodape'
+   import Grid     from '@/components/layouts/Grid'
+   import CardMenu from '@/components/layouts/CardMenu'
 
    export default {
       name: 'app',
       components: {
-         NavBar, Rodape, Grid
+         NavBar, Rodape, Grid, CardMenu
       }
    }
 
